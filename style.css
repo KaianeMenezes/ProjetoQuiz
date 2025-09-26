@@ -1,0 +1,175 @@
+*{ 
+    box-sizing: border-box; 
+} 
+
+body{ 
+    background-color: rgb(255, 233, 236); color: rgb(233, 156, 179); 
+    font-family: "SUSE Mono", sans-serif; font-weight: 600; 
+    font-size: 1.5rem; 
+} 
+
+header{
+     padding: 2rem; 
+     background-color: rgb(250, 204, 213);
+      text-align: center; 
+} 
+
+h1{ 
+    font-family: "Pacifico", cursive; 
+    font-weight: 400; 
+    font-size: 3rem; 
+    color: rgb(226, 138, 160); 
+}
+
+main{ 
+    padding: 2rem; 
+    display: flex;
+     flex-direction: column; 
+     gap: 1.5rem; 
+} 
+
+section{ 
+    display: flex; 
+    flex-direction: column; 
+    gap: 0.5rem; 
+} 
+
+h2{ 
+    color: rgb(231, 141, 176); 
+    font-size: 2rem;
+} 
+
+input[type= "radio"], input[type= "checkbox"]{ 
+    cursor: pointer; 
+    accent-color: rgb(189, 134, 143);
+} 
+
+input[type= "text"], input[type="password"], input[type="date"], input[type="email"]{ 
+    cursor: pointer; width: 100%; 
+    padding: 0.5rem;
+     border: 2px solid rgb(189, 134, 143); 
+     outline: none; border-radius: 100px; 
+     background-color: transparent; 
+} 
+
+input::placeholder{ 
+    color: rgb(189, 134, 143); 
+} 
+
+input[type=file]::file-selector-button:hover{ 
+    cursor: pointer; 
+    background-color: transparent; 
+    border: 2px solid rgb(189, 134, 143); 
+    outline: none; border-radius: 50px;
+ } 
+
+ select{ 
+    cursor: pointer; 
+    background-color: transparent; 
+    color: rgb(189, 134, 143); 
+    border: 2px solid rgb(189, 134, 143);
+     outline: none; border-radius: 100px; 
+     width: 100%; padding: 0.5rem;
+}
+
+img{ 
+    width: 10rem; 
+    border-radius: 50px; 
+}
+
+table{ 
+    width: 100%; 
+}
+
+th{ 
+    background-color: rgb(250, 204, 213); 
+    color: rgb(226, 138, 160); 
+    font-family: "Pacifico", cursive; 
+    padding: 0.5rem; 
+    font-weight: 300; 
+    font-size: 2rem; 
+} 
+
+td{ 
+    color: rgb(226, 138, 160); 
+    font-family: "Pacifico", cursive; 
+    font-weight: 300;
+    padding: 0.5rem; 
+    text-align: center; 
+}
+
+tfoot td{  
+    background-color: rgb(250, 204, 213); 
+    color: rgb(238, 103, 137); 
+    font-family: "Pacifico", cursive; 
+    padding: 0.5rem; font-weight: 300; 
+    font-size: 2rem; 
+}
+
+details{ 
+    background-color: rgb(250, 204, 213); 
+    color: rgb(226, 138, 160); 
+    font-size: 1.5rem; 
+    border-radius: 50px; 
+    padding: 1rem; 
+    margin: 1rem; 
+} 
+
+summary{ 
+    color: rgb(238, 103, 137); 
+    margin: 0.5rem; 
+    cursor: pointer; 
+} 
+ol li{ 
+    padding: 0.2rem; 
+}
+
+fieldset{ 
+    border: 2px solid rgb(189, 134, 143); 
+    border-radius: 50px; 
+    font-size: 2rem; 
+    color: rgb(226, 138, 160); 
+    background-color: rgb(250, 204, 213); 
+    padding: 1rem; 
+    margin: 1rem; 
+} 
+
+legend{ color: rgb(189, 134, 143); 
+    padding: 0 0.5rem; 
+} 
+
+textarea{ 
+    background-color: rgb(255, 233, 236); 
+    outline: none; 
+    border-radius: 50px; 
+    padding: 1rem; 
+    border: 2px solid rgb(189, 134, 143); 
+    color:rgb(189, 134, 143); 
+} 
+
+button{ 
+    background-color: rgb(255, 233, 236); 
+    cursor: pointer; 
+    border-radius: 100px; 
+    border: 2px solid rgb(189, 134, 143); 
+    color: rgb(189, 134, 143); 
+} 
+
+footer{ 
+    background-color: rgb(250, 204, 213); 
+    text-align: center; 
+    padding: 2rem; 
+} 
+
+.paragrafo-footer{ 
+    color: rgb(226, 138, 160); 
+} 
+
+.paragrafo-footer2{ 
+    color: rgb(189, 134, 143); 
+} 
+
+footer a{
+     text-decoration: none; 
+     color: rgb(230, 18, 124); 
+}
