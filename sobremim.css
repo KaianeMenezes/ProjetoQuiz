@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=The+Girl+Next+Door&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, li, td,  a, input, button{
+    background-color: rgb(255, 233, 236);
+    color: rgb(233, 156, 179);
+    font-family: "The Girl Next Door", cursive;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+header{
+    padding: 2rem;
+    background-color: rgb(250, 204, 213);
+    text-align: center;
+}
+
+h1{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    color: rgb(226, 138, 160);
+    text-align: center;
+    font-size: 3rem;
+}
+
+h2 {
+    font-family: "The Girl Next Door", cursive;
+    font-size: 3rem; /* um pouco menor */
+    color: rgb(226, 138, 160);
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(230, 18, 124);;
+}
+a:hover {
+    color:  rgb(189, 134, 143);
+}
+
+/* Footer */
+footer {
+  background-color: rgb(250, 204, 213); /* fundo rosa claro */
+  text-align: center; /* centralizar tudo */
+  padding: 2rem; /* espaço interno */
+}
+
+/* todos os parágrafos do footer */
+footer p {
+  font-family: "SUSE Mono", sans-serif; /* mesma fonte do site */
+  font-size: 2rem; /* tamanho do texto */
+  color: rgb(226, 138, 160); /* mesma cor dos parágrafos */
+  line-height: 2; /* espaço entre linhas */
+  margin: 0.8rem 0; /* espaço entre parágrafos */
+}
+
+/* links do footer */
+footer a {
+  text-decoration: none; /* tira sublinhado */
+  color: rgb(230, 18, 124); /* cor do link */
+  font-weight: 600; /* deixa destacado */
+  margin: 0 0.3rem; /* espaço lateral */
+  font-family: "SUSE Mono", sans-serif;
+  background-color: rgb(250, 204, 213);
+  padding: 2rem; 
+}
